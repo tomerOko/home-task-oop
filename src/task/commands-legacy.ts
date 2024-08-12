@@ -50,3 +50,28 @@ const commands = {
 };
 
 module.exports = commands;
+
+
+const commands = require('./commands-legacy');
+
+commands.buildCommands();
+
+commands.getCommand('help').init();
+commands.getCommand('sos').init();
+
+console.log('------------------------');
+
+commands.getCommand('example').init();
+commands.getCommand('demo').init();
+
+
+# Refactor `commands-legacy.js` with Object-Oriented approach.
+
+## Workflow guidelines
+* Use TS.
+* Write in this or separate repository.
+
+## Coding guidelines
+* Use classes.
+* Use inheritance.
+* Use factory design pattern.
