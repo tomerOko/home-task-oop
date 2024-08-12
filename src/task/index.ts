@@ -1,11 +1,11 @@
-const commands = require('./commands-legacy');
+// const commands = require('./commands-legacy');
 
-commands.buildCommands();
+// commands.buildCommands();
 
-commands.getCommand('help').init();
-commands.getCommand('sos').init();
+// commands.getCommand('help').init();
+// commands.getCommand('sos').init();
 
-console.log('------------------------');
+// console.log('------------------------');
 
-commands.getCommand('example').init();
-commands.getCommand('demo').init();
+// commands.getCommand('example').init();
+// commands.getCommand('demo').init();
