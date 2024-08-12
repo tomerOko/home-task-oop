@@ -1,3 +1,3 @@
-import './solution'
+import './commands'
 
-console.log('------------------------');
+console.log('done');
